@@ -3,6 +3,7 @@ import subprocess
 import time
 # Install https://github.com/tanghaibao/goatools
 # place go-basic.obo in the current working directory
+# (C) Rahul Shaw
 def Go_test(marker_file = r"PATH/markers_seurat.csv",fc = 1,p_val_adj = 0.05):
     dic = {}
 
